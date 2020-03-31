@@ -15,3 +15,5 @@ iOS app meant for receiving data from JSON file, companion app to Flask Webapp. 
   5. App will only stay on phone for a max of 7 days due to Apple's limitation for free developer certificate. 
   
 The app will only run on iOS devices with iOS 13 and above as it is written in SwiftUI which only supports newer devices. 
+
+There is currently no IPA file for the app. Plans for Android app coming soon. 
