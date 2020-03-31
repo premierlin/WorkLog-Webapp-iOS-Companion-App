@@ -70,6 +70,8 @@ def index():
     
     if ddreq == "2020-03-23":
       return render_template("indexbirthday.html")
+    elif ddreq == "2020-04-01":
+      return redirect('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
     elif subreq == "H2 Computing":
       return render_template("indexcomputing.html")
     else:
