@@ -7,7 +7,7 @@ Flask app that runs off python with templates running with HTML and CSS. Clean a
 <h3>Homework Folder</h3>
 iOS app meant for receiving data from JSON file, companion app to Flask Webapp. <b>Installation to iOS device is currently close to impossible for non-programmers.</b> Installation instructions as follows (will require macbook or virtual machine running macOS Catalina). 
 
-
+<h3>Installation Instructions for iPhone users</h3>
   1. Install latest <a href="https://apps.apple.com/sg/app/xcode/id497799835?mt=12">Xcode</a> version. 
     <img src="https://i.imgur.com/5jG0jOF.png"/>
   2. Download folder from Github and open the Xcode project.
