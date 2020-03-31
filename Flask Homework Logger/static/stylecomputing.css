@@ -1,0 +1,225 @@
+
+
+body {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-variant: normal;
+	font-weight: 300;
+}
+
+#title {
+  padding-left: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  color: black;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+	padding: 30px 0;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-variant: normal;
+	color: white;
+}
+
+header .row,
+footer .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	font-weight: 700;
+	margin: 0;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	white-space: nowrap;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: black;
+}
+
+header a {
+	padding: 0 20px;
+	margin: 0;
+	color: white;
+}
+
+footer {
+	font-size: 12px;
+	padding: 20px 0;
+	color: white;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+footer .col-sm-8 {
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+}
+
+section .row img {
+	margin: 0 0 30px;
+	width: 100%;
+}
+
+section .row {
+	color: white; 
+}
+
+.col-md-6 {
+	margin: 0 0 30px;
+	vertical-align: middle;
+}
+
+img:hover {
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+
+#homework [type=text] {
+    border-radius: 5px;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 600;
+    background: #f4f4f4;
+    background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#notes [type=text] {
+    border-radius: 5px;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 600;
+    background: #f4f4f4;
+    background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#dd [type=date] {
+    border-radius: 5px;
+    border: 0;
+    width: 250px;
+    height:40px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 600;
+    background: #f4f4f4;
+    background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#subject [type=option]{
+    border-radius: 5px;
+    border: 0;
+    width: 250px;
+    height:40px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 600;
+    background: #f4f4f4;
+    background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#submit [type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 300px;
+    height:40px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    background: #f4f4f4;
+    background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+    margin: 0 auto;
+}
+
+#button {
+  padding-top: 40px;
+}
+
+.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}

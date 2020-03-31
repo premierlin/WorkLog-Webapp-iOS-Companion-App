@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Homework Reminder</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body style="background-color: #a9a9a9">
+		<header class="container">
+      <div class="row">
+        <h2 id="title">DHPortal</h2>
+        <nav> 
+          <a href="{{ url_for('homework') }}">Homework JSON</a>
+          <a href="{{ url_for('github') }}">Download the App</a>
+        </nav>
+      </div>
+    </header>
+    <section class="container" id="superform">
+      <form action="/" method="POST">
+        <div class="container">
+          <div class="container">
+            <div class="container">
+              <h3>Homework</h3>
+            <div class="row" id="homework">
+              <input type="text" placeholder="Enter Homework" name="homework" /></div><br />
+              <h3>Notes</h3>
+            <div class="row" id="notes">
+              <input type="text" placeholder="Notes" name="notes" /></div><br />
+              <h3>Due Date</h3>
+            <div class="row" id="dd">
+              <input type="date" name="dd" /></div><br />
+              <h3>Subject</h3>
+            <div class ="row" id="subject">
+                <select type="option" id="subs" name="subjects">
+                  <option value="H2 Math">H2 Math</option>
+                  <option value="H2 Computing">H2 Computing</option>
+                  <option value="H2 Physics">H2 Physics</option>
+                  <option value="H2 Economics">H2 Economics</option>
+                  <option value="H1 GP">H1 GP</option>
+                  <option value="H1 PW">H1 PW</option>
+                </select>
+            </div>
+              <div id="button">
+            <div class="row" id="submit">
+              <input type="submit" value="Submit Homework Reminder" /> </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+	</body>
+</html>
