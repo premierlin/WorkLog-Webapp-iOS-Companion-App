@@ -81,7 +81,7 @@ def homework():
 
 @app.route('/github')
 def github():
-  return redirect('https://www.github.com')
+  return redirect('https://github.com/dhs17y2adonchia/WorkLog-Webapp-iOS-Companion-App')
   
 app.run(host='0.0.0.0', port=8080)
 
